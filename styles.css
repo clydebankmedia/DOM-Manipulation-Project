@@ -1,0 +1,52 @@
+/* ===== Layout Overrides ===== */
+body {
+    margin: 24px;
+    /* Adds outer whitespace around sections */
+    background: #ffffff;
+    /* Keep clean white page background */
+    color: #222222;
+}
+
+/* ===== Section Panels ===== */
+header,
+main,
+footer {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+/* Header has a distinct light-blue accent panel */
+header {
+    background: #f2f6ff;
+    border-color: #d9e5ff;
+}
+
+/* ===== Text Spacing ===== */
+h1,
+h2 {
+    margin: 0 0 12px 0;
+}
+
+p {
+    margin: 0 0 16px 0;
+    color: var(--color-muted);
+}
+
+/* ===== Buttons ===== */
+button {
+    padding: 10px 14px;
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary);
+    color: #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+button:hover {
+    opacity: 0.96;
+}
